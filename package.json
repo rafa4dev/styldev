@@ -1,14 +1,31 @@
 {
   "name": "styldev",
   "displayName": "Styldev",
-  "description": "theme of channel styildev",
+  "description": "Um theme baseado na nossa floresta amazonica, para todos sentir um pouquinho do nosso brasil!",
   "version": "0.0.1",
+  "author": {
+    "name": "Rafael Paz",
+    "url": "https://github.com/rafa4dev",
+    "email": "dudex1992@gmail.com"
+  },
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#C80000",
+    "theme": "dark"
+  },
   "engines": {
     "vscode": "^1.71.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": ["color-theme","dark","styldev","theme"],
+  "license": "MIT",
+  "publisher": "styildev",
+  "bugs": {
+    "url": "https://github.com/rafa4dev/styldev/issues",
+    "email": "dudex1992@gmail.com"
+  },
   "contributes": {
     "themes": [
       {
@@ -17,5 +34,10 @@
         "path": "./themes/StylDEV-color-theme.json"
       }
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafa4dev/styldev.git"
+  },
+  "homepage": "https://github.com/rafa4dev/styldev/blob/master/README.md"
 }
